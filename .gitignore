@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Flask and Python logs
+instance/
+*.log
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+*.swp
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Migrations
+migrations/
+
+# Environment variables
+.env
+*.env
+
+# Database files
+*.db
+*.sqlite
+
+# Compiled files
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Caches
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Deployment
+*.bak
+*.pid
+*.seed
+
+# Pytest cache
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Node dependencies (if used for frontend)
+node_modules/
+
+config.py
